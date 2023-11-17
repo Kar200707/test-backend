@@ -16,8 +16,8 @@ async function startApp ():Promise<void> {
     try {
         await mongoose.connect(DB_URL);
         console.log('Mongo Db Connected');
-        app.listen(3000, ():void => {
-            console.log(`server started: http://localhost:3000`);
+        app.listen(4000, ():void => {
+            console.log(`server started: http://localhost:4000`);
         })
     } catch (e) {
         console.log(e);
