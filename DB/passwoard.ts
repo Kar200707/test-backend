@@ -1,0 +1,1 @@
+export const pass:string = '7nwV9PLEgES8QdwP';
