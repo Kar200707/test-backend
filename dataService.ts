@@ -22,7 +22,7 @@ class DataService {
         if (!data._id) {
             throw new Error('id not')
         }
-        const updatedData = await Date.findByIdAndUpdate(data._id, data, {new: true});
+        const updatedData = await Date.findByIdAndUpdate(data.id, data, {new: true});
         return updatedData;
     }
 
